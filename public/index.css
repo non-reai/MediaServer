@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+section {
+	padding: 20px;
+}
+
+/* input::file-selector-button {
+	padding: 0.5em;
+	font-size: 2rem;
+} */
+
+#upload-section {
+	height: 20vh;
+	background-color: #ff9494;
+}
+
+#files-section {
+	background-color: #fee486;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 80vh;
+}
+
+#files-section > img {
+	max-height: 25vh;
+	max-width: 25vw;
+}
